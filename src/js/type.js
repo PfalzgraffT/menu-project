@@ -1,0 +1,59 @@
+import Typed from 'typed.js';
+
+
+  new Typed('#typed-text-one', {
+    strings: ["Mosquée", "Mohammed Ali"],
+    typeSpeed: 500,
+    loop: true
+  });
+  new Typed('#typed-text-onebis', {
+    strings: ["La mosquée Mohammed Ali est un sanctuaire islamique de la ville du Caire. Elle doit sa construction au vice-roi Muhammad Ali Pacha, qui lui a laissé son nom. Cet édifice emblématique fut édifié de 1830 à 1848 ; il s'inspire largement de l'architecture traditionnelle ottomane."],
+    typeSpeed: 100,
+    loop: true
+  });
+
+  new Typed('#typed-text-two', {
+    strings: ["La Statue de la Liberté"],
+    typeSpeed: 1906,
+    loop: false
+  });
+  new Typed('#typed-text-twobis', {
+    strings: ["La Statue de la Liberté est une sculpture néo - classique sur Liberty Island dans le port de New York. La statue en cuivre a été conçue par le sculpteur français Frédéric Auguste Bartholdi et sa charpente métallique a été construite par Gustave Eiffel. La statue est une figure de Libertas, une déesse de la liberté romaine en robe."],
+    typeSpeed: 100,
+    loop: true
+  });
+
+  new Typed('#typed-text-three', {
+    strings: ["La Tour Eiffel"],
+    typeSpeed: 1906,
+    loop: false
+  });
+  new Typed('#typed-text-threebis', {
+    strings: ["La tour Eiffel est une tour de fer puddlé de 324 mètres de hauteur. Construite en deux ans par Gustave Eiffel et ses collaborateurs, et initialement nommée « Tour de 300 mètres », elle est devenue le symbole de la capitale française et un site touristique de premier plan."],
+    typeSpeed: 100,
+    loop: true
+  });
+
+  new Typed('#typed-text-four', {
+    strings: ["L'Opéra de Sydney"],
+    typeSpeed: 1906,
+    loop: false
+  });
+  new Typed('#typed-text-fourbis', {
+    strings: ["L’opéra de Sydney est l'un des plus célèbres bâtiments du xxe siècle et un haut-lieu de représentation des arts notamment lyriques. Son architecture originale, qui ressemble à un voilier pour les uns, ou à un coquillage pour les autres, a été imaginée par le Danois Jørn Utzon."],
+    typeSpeed: 100,
+    loop: true
+  });
+
+  new Typed('#typed-text-five', {
+    strings: ["La Tour de Tokyo"],
+    typeSpeed: 1906,
+    loop: false
+  });
+  new Typed('#typed-text-fivebis', {
+    strings: ["La tour de Tokyo est une tour rouge et blanche située dans l'arrondissement de Minato à Tokyo. Son concept est fondé sur celui de la tour Eiffel de Paris. Elle a été réalisée par l'architecte Tachū Naitō. La tour mesure 332,6 mètres de haut. La construction démarre en 1957 et s'achève en 1958."],
+    typeSpeed: 100,
+    loop: true
+  });
+
+

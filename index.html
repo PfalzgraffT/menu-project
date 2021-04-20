@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Parcel Sandbox</title>
+    <title>Planet</title>
     <meta charset="UTF-8"/>
     <link rel="stylesheet" type="text/css" href="src/styles.scss"/>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -13,13 +14,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5">
     <meta name="format-detection" content="telephone=no">
     <!-- Title -->
-    <title>Benjamin Code Scalpel</title>
+    <title>Planet</title>
     <!-- Description -->
-    <meta name="description" content="Home description.">
+    <meta name="description" content="Capitales du monde.">
     <!-- Social -->
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Quick Parcel Project — Home">
+    <meta name="twitter:title" content="Planet — Home">
     <meta name="twitter:description" content="Home description.">
     <meta name="twitter:image" content="#">
     <!-- Facebook -->
@@ -32,16 +33,106 @@
     <meta property="og:image:height" content="630">
     <!-- Favicon -->
     <meta name="theme-color" content="#fff">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@400;500&display=swap" rel="stylesheet" >
 </head>
 
 <body>
-<include src="src/partials/nav.html"></include>
 
-<div class="container">
-    <h1>Quick Start Parcel Project</h1>
-</div>
+<nav>
+  <span class="burger">Menu</span>
+  <span class="title">Planet</span>
+  <span class="cart"></span>
+</nav>
 
-<include src="src/partials/footer.html"></include>
+<aside class="side-content">
+  <section>
+    <ul>
+      <li class="toggle"><a href="#lecaire"><span class="mediumname">Le Caire</span></a></li>
+      <li class="toggle"><a href="#newyork"><span class="bigname">New York</span></a></li>
+      <li class="toggle"><a href="#paris"><span>Paris</span></a></li>
+      <li class="toggle"><a href="#sydney"><span>Sydney</span></a></li>
+      <li class="toggle"><a href="#tokyo"><span>Tokyo</span></a></li>
+    </ul>
+    <a href="https://www.linkedin.com/in/thomas-pfalzgraff-11a3451b6/" target="blank"><img style ="position: absolute; height: 30px; width: 30px; bottom:10px; right: 60%;" src="/assets/linkedin.svg" alt=""></a>
+    <a href="https://thomasdev400243281.wordpress.com/" target="blank"><img style ="position: absolute; height: 30px; width: 30px; bottom: 10px; right: 40%;" src="/assets/wordpress.svg" href="" alt=""></a>
+  </section>
+</aside>
+
+<main class="main-content">
+
+  <section>
+    <img src="/assets/atlas.png" alt="atlas" class="atlas">
+  </section>
+  <section class="vert" style="border-radius:50px; background-color: #52787A;">
+
+    <div class="legend-left">
+      <p style="position: absolute; padding-bottom: 107vh; visibility: hidden" id="lecaire">a</p>
+      <img src="/assets/egyptmap.svg" class="pays" alt="">
+    </div>
+    <div class="ville">
+      <img src="/assets/cairo.jpg" class="monument" style="border-top-right-radius:50px;" alt="">
+      <h1 class="typed"><span id=typed-text-one></span></h1>
+      <p class="typed-description"><span id=typed-text-onebis></span></p>
+    </div>
+
+  </section>
+
+  <section class="vert" style="border-radius:50px; background-color: #629093">
+    <div class="ville">
+      <img src="/assets/queenofliberty.jpg" class="monument" style="border-top-left-radius:50px;"alt="">
+      <h1 class="typed"><span id=typed-text-two></span></h1>
+      <p class="typed-description"><span id=typed-text-twobis></span></p>
+    </div>
+    <div class="legend-right">
+      <p style="position: absolute; padding-bottom: 108vh; visibility: hidden" id="newyork">a</p>
+      <img src="/assets/usamap.svg" class="pays" alt="">
+    </div>
+
+  </section>
+
+  <section class="vert" style="border-radius:50px; background-color: #78A2A5">
+
+    <div class="legend-left">
+      <p style="position: absolute; padding-bottom: 109vh; visibility: hidden" id="paris">a</p>
+      <img src="/assets/francemap.svg" class="pays" alt="">
+    </div>
+    <div class="ville">
+      <img src="/assets/toureiffel.jpg" class="monument" style="border-top-right-radius:50px;" alt="">
+      <h1 class="typed"><span id=typed-text-three></span></h1>
+      <p class="typed-description"><span id=typed-text-threebis></span></p>
+    </div>
+
+  </section>
+
+  <section class="vert" style="border-radius:50px; border-bottom-right-radius:50px; background-color: #91B3B6">
+    <div class="ville">
+      <img src="/assets/operahouse.jpg" class="monument" style="border-top-left-radius:50px;" alt="">
+      <h1 class="typed"><span id=typed-text-four></span></h1>
+      <p class="typed-description"><span id=typed-text-fourbis></span></p>
+    </div>
+    <div class="legend-right">
+      <p style="position: absolute; padding-bottom: 110vh; visibility: hidden" id="sydney">a</p>
+      <img src="/assets/australiemap.svg" class="pays" alt="">
+    </div>
+
+  </section>
+
+  <section class="vert" style="border-radius:50px; background-color: #A9C3C6">
+
+    <div class="legend-left">
+      <p style="position: absolute; padding-bottom: 110vh; visibility: hidden" id="tokyo">a</p>
+      <img src="/assets/japonmap.svg" style="margin-left: 3em;" class="pays" alt="">
+    </div>
+    <div class="ville">
+      <img src="/assets/tokyotower.jpg" class="monument" style="border-top-right-radius:50px;" alt="">
+      <h1 class="typed"><span id=typed-text-five></span></h1>
+      <p class="typed-description"><span id=typed-text-fivebis></span></p>
+    </div>
+  </section>
+
+</main>
 
 <script src="src/index.js"></script>
 
