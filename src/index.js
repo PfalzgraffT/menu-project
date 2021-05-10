@@ -7,7 +7,7 @@ require("channels")
 
 
 
-import { typType } from '../src/js/type';
+import { typType } from '/src/js/type';
 
 
 
