@@ -1,3 +1,18 @@
+require("@rails/ujs").start()
+require("turbolinks").start()
+require("@rails/activestorage").start()
+require("channels")
+
+
+
+
+
+import { typType } from './js/type';
+
+
+
+
+
 const menuBurgerBtn = document.querySelector('.burger');
 
 menuBurgerBtn.addEventListener('click', () => {
@@ -21,8 +36,7 @@ const menuBtns = document.querySelectorAll('.toggle');
 });
 
 
-import { loadDynamicBannerText } from './js/type';
-
 document.addEventListener('turbolinks:load', () => {
-   loadDynamicBannerText();
+  // Call your functions here, e.g:
+  typType();
 });

@@ -1,42 +1,45 @@
 import Typed from 'typed.js';
 
 
+
+const typType = () => {
   new Typed('#typed-text-one', {
-    strings: ["Mosquée", "Mohammed Ali"],
-    typeSpeed: 500,
-    loop: true
+    strings: ["Mosquée Mohammed Ali"],
+    typeSpeed: 200,
+    loop: false
   });
+
   new Typed('#typed-text-onebis', {
-    strings: ["La mosquée Mohammed Ali est un sanctuaire islamique de la ville du Caire. Elle doit sa construction au vice-roi Muhammad Ali Pacha, qui lui a laissé son nom. Cet édifice emblématique fut édifié de 1830 à 1848 ; il s'inspire largement de l'architecture traditionnelle ottomane."],
+    strings: ["La mosquée Mohammed Ali est un sanctuaire islamique. Elle doit sa construction au vice-roi Muhammad Ali Pacha, qui lui a laissé son nom. Cet édifice fut édifié de 1830 à 1848 ; il s'inspire de l'architecture traditionnelle ottomane."],
     typeSpeed: 100,
     loop: true
   });
 
   new Typed('#typed-text-two', {
     strings: ["La Statue de la Liberté"],
-    typeSpeed: 1906,
+    typeSpeed: 200,
     loop: false
   });
   new Typed('#typed-text-twobis', {
-    strings: ["La Statue de la Liberté est une sculpture néo - classique sur Liberty Island dans le port de New York. La statue en cuivre a été conçue par le sculpteur français Frédéric Auguste Bartholdi et sa charpente métallique a été construite par Gustave Eiffel. La statue est une figure de Libertas, une déesse de la liberté romaine en robe."],
+    strings: ["La Statue de la Liberté est une sculpture néo-classique sur Liberty Island. La statue en cuivre a été conçue par le sculpteur français Frédéric Auguste Bartholdi et sa charpente métallique par Gustave Eiffel. Elle est une figure de Libertas, déesse de la liberté romaine."],
     typeSpeed: 100,
     loop: true
   });
 
   new Typed('#typed-text-three', {
     strings: ["La Tour Eiffel"],
-    typeSpeed: 1906,
+    typeSpeed: 200,
     loop: false
   });
   new Typed('#typed-text-threebis', {
     strings: ["La tour Eiffel est une tour de fer puddlé de 324 mètres de hauteur. Construite en deux ans par Gustave Eiffel et ses collaborateurs, et initialement nommée « Tour de 300 mètres », elle est devenue le symbole de la capitale française et un site touristique de premier plan."],
     typeSpeed: 100,
-    loop: true
+    loop: true,
   });
 
   new Typed('#typed-text-four', {
     strings: ["L'Opéra de Sydney"],
-    typeSpeed: 1906,
+    typeSpeed: 200,
     loop: false
   });
   new Typed('#typed-text-fourbis', {
@@ -47,7 +50,7 @@ import Typed from 'typed.js';
 
   new Typed('#typed-text-five', {
     strings: ["La Tour de Tokyo"],
-    typeSpeed: 1906,
+    typeSpeed: 200,
     loop: false
   });
   new Typed('#typed-text-fivebis', {
@@ -55,5 +58,6 @@ import Typed from 'typed.js';
     typeSpeed: 100,
     loop: true
   });
+}
 
-
+export { typType };
